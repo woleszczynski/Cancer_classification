@@ -13,7 +13,7 @@ Ostatecznym celem jest identyfikacja najbardziej efektywnych metod klasyfikacji 
 
 ## 📂 Struktura repozytorium
 project-root/
-├── results/ # wyniki eksperymentów w formacie Excel
+├── results/ # wyniki eksperymentów w formacie Excel/n
 │ ├── best_model
 │ 	├── r_SEER_best_model.xlsx
 │ 	├── r_Breast_best_model.xlsx
