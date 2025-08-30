@@ -1,9 +1,9 @@
 # Porównanie efektywności wybranych modeli uczenia maszynowego w rozpoznawaniu typów nowotworów
 
-## 🎯 Cel projektu
+## Cel projektu
 Celem projektu jest opracowanie i porównanie skuteczności różnych metod uczenia maszynowego w zadaniu klasyfikacji typów nowotworów, takich jak rak piersi, płuc, jelita grubego i żołądka. Analizowane są zarówno klasyczne modele ML (SVM, drzewa decyzyjne), jak i zaawansowane techniki zespołowe (Random Forest, Gradient Boosting).
 
-## 📚 Opis pracy
+## Opis pracy
 Projekt obejmuje:
 - wstępne przetwarzanie danych medycznych (usuwanie braków, normalizacja, selekcja cech, równoważenie klas),
 - implementację i trening wybranych modeli przy użyciu scikit-learn,
@@ -11,7 +11,7 @@ Projekt obejmuje:
 
 Ostatecznym celem jest identyfikacja najbardziej efektywnych metod klasyfikacji nowotworów oraz wnioski dotyczące ich zastosowania w diagnostyce medycznej.
 
-## 📂 Struktura repozytorium
+## Struktura repozytorium
 ```text
 project-root/
 ├── results/ # wyniki eksperymentów w formacie Excel
@@ -31,7 +31,7 @@ project-root/
 └── README.md
 ```
 
-## 📊 Wyniki
+## Wyniki
 
 W folderze results/ znajdują się pliki Excel zawierające:
 
@@ -44,18 +44,18 @@ W folderze results/ znajdują się pliki Excel zawierające:
 - czasy wykonania (*_time).
 
 
-## ⚙️ Modele i metryki
+## Modele i metryki
 
 - Modele: Decision Tree, Random Forest, SVM, Gradient Boosting / HistGradientBoosting
 
 - Metryki: Accuracy, Precision, Recall, F1-score
 
 
-## 🔗 Pipeline
+## Pipeline
 
 raw data → preprocessing → best_models.py → final.py → results
 
 
-## ℹ️ Uwagi
+## Uwagi
 
 Pliki danych nie są dołączone do repozytorium ze względu na rozmiar.
