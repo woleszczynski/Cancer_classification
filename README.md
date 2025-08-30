@@ -12,22 +12,24 @@ Projekt obejmuje:
 Ostatecznym celem jest identyfikacja najbardziej efektywnych metod klasyfikacji nowotworów oraz wnioski dotyczące ich zastosowania w diagnostyce medycznej.
 
 ## 📂 Struktura repozytorium
+```text
 project-root/
-├── results/  # wyniki eksperymentów w formacie Excel
-│   ├── best_model
-│   │   ├── r_SEER_best_model.xlsx
-│   │   ├── r_Breast_best_model.xlsx
-│   │   ├── r_TCGA_best_model.xlsx
-│   │   └── r_Lung_best_model.xlsx
-│   ├── final
-│   │   ├── r_SEER_final.xlsx
-│   │   ├── r_Breast_final.xlsx
-│   │   ├── r_TCGA_final.xlsx
-│   │   └── r_Lung_final.xlsx
-├── src/  # kod źródłowy
-│   ├── best_models.py
-│   └── final.py
+├── results/ # wyniki eksperymentów w formacie Excel
+│ ├── best_model
+│ │ ├── r_SEER_best_model.xlsx
+│ │ ├── r_Breast_best_model.xlsx
+│ │ ├── r_TCGA_best_model.xlsx
+│ │ └── r_Lung_best_model.xlsx
+│ ├── final
+│ │ ├── r_SEER_final.xlsx
+│ │ ├── r_Breast_final.xlsx
+│ │ ├── r_TCGA_final.xlsx
+│ │ └── r_Lung_final.xlsx
+├── src/ # kod źródłowy
+│ ├── best_models.py
+│ └── final.py
 └── README.md
+```
 
 ## 📊 Wyniki
 
