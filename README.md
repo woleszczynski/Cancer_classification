@@ -46,12 +46,13 @@ W folderze results/ znajdują się pliki Excel zawierające:
 
 ## ⚙️ Modele i metryki
 
-Modele: Decision Tree, Random Forest, SVM, Gradient Boosting / HistGradientBoosting
+- Modele: Decision Tree, Random Forest, SVM, Gradient Boosting / HistGradientBoosting
 
-Metryki: Accuracy, Precision, Recall, F1-score
+- Metryki: Accuracy, Precision, Recall, F1-score
 
 
 ## 🔗 Pipeline
+
 raw data → preprocessing → best_models.py → final.py → results
 
 
